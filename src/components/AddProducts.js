@@ -53,7 +53,7 @@ export const AddProducts = () =>{
     return(
         <div className='container'>
         <br />
-        <h2>Añadir Producto</h2>
+        <h2>Añadir Productos</h2>
         <hr />
         <form autoComplete="off" className='form-group' onSubmit={addProduct}>
                 <label htmlFor="product-name">Nombre del Producto</label>

@@ -62,7 +62,11 @@ body {
     color: #000;
 }
 
-.navbox .rightside .no-of-products {
+.navbox .rightside .relative{
+    position: relative;
+}
+
+.navbox .rightside .relative .no-of-products {
     background: #f57224;
     color: #fff;
     font-size: 10px;
