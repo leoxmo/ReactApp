@@ -12,7 +12,7 @@ export const Home = ({ user }) => {
     useEffect(() => {
         auth.onAuthStateChanged(user => {
             if (!user) {
-                history.push('/login');
+                history.push('/'); ///esto cambie para que no se dirija a login 
             }
         })
     })
