@@ -7,15 +7,6 @@ import { useHistory } from 'react-router-dom'
 
 export const Home = ({ user }) => {
 
-    const history = useHistory();
-
-    useEffect(() => {
-        auth.onAuthStateChanged(user => {
-            if (!user) {
-                history.push('/'); ///esto cambie para que no se dirija a login 
-            }
-        })
-    })
 
     return (
         <div className='wrapper'>
